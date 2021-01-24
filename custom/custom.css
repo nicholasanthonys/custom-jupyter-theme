@@ -2911,6 +2911,7 @@ div.CodeMirror pre {
  color: #b5c2d9;
 }
 div.CodeMirror-lines {
+
  padding-bottom: .9em;
  padding-left: .5em;
  padding-right: 1.5em;
@@ -3240,8 +3241,11 @@ div#maintoolbar {
  width: 100% !important;
 }
 #header-container {
- display: none !important;
+ display: block !important;
 }
+
+
+
 
 <script>
     MathJax.Hub.Config({
